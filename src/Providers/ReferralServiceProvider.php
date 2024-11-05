@@ -44,7 +44,7 @@ class ReferralServiceProvider extends ServiceProvider
 
         // Bind the ReferralController to the application container
         $this->app->bind('Olakunlevpn\LaravelReferral\Controllers\ReferralController', function ($app) {
-            return new \Jijunair\LaravelReferral\Controllers\ReferralController();
+            return new \Olakunlevpn\LaravelReferral\Controllers\ReferralController();
         });
     }
 }
